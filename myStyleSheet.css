@@ -57,7 +57,7 @@ label, input, textarea {
 }
 .greet{
     margin: auto;
-    width: 450px;
+    max-width: 450px;
     padding: 7px 7px 7px 7px;
     border:1px dashed rgb(255, 255, 255);
 }
