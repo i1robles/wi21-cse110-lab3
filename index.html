@@ -12,8 +12,11 @@
         <hr>
         <style>
             h1 {
-              color: maroon;
+              color: maroon; 
               margin-left: 40px;
+            }
+            .center {
+                text-align: center;
             }
         </style>
         <h1 style="text-align:center;">Ivan Robles - Computer Engineer</h1>
@@ -75,7 +78,7 @@
         </section>
         <section>
             <h2>What I Do Outside of CS</h2>
-            <h3>Art</h3>
+            <h3 class="center">Art</h3>
             <p>I draw.. <b><i>A Lot.</i></b> I learned naturally, never really taking anything more advanced than intro art 
                 classes (besides AP Drawing). I gravitated toward traditional pen and ink drawings, until the summer of 2020 
                 when I got my first drawing tablet. After that, I got hooked on digital drawings, but I still dabble with ink
@@ -152,10 +155,18 @@
                     <input type="email" id="email" value="Enter Email">
                 <br>
                     <fieldset>
+                        <style>
+                            #consL{
+                                color: red;
+                            }
+                            #libL{
+                                color: rgb(0, 110, 255);
+                            }
+                        </style>
                         <legend>Political Views</legend>
-                        <label for="cons">Conservative</label>
+                        <label for="cons" id="consL">Conservative</label>
                         <input type="radio" id="cons">
-                        <label for="lib">Liberal</label>
+                        <label for="lib" id="libL">Liberal</label>
                         <input type="radio" id="lib">
                         <label for="other">In Between/Other</label>
                         <input type="radio" id="other">
