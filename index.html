@@ -10,6 +10,12 @@
         <link href="myStyleSheet.css" rel="stylesheet"/>
         <header>This site is still under construction</header>
         <hr>
+        <style>
+            h1 {
+              color: maroon;
+              margin-left: 40px;
+            }
+        </style>
         <h1>Ivan Robles - Computer Engineer</h1>
         <h3>Welcome! This is a page about who I am and my qualifications as a computer engineer. </h3>
         <p>If you are here, you're most likely considering hiring me for your company or are just interested in learning about me.
@@ -146,12 +152,12 @@
                     <input type="email" id="email" value="Enter Email">
                 <br>
                     <fieldset>
-                        <legend>Please Choose Your Current Mood</legend>
-                        <label for="happy">Happy</label>
-                        <input type="radio" id="happy">
-                        <label for="sad">Sad</label>
-                        <input type="radio" id="sad">
-                        <label for="other">Other</label>
+                        <legend>Political Views</legend>
+                        <label for="cons">Conservative</label>
+                        <input type="radio" id="cons">
+                        <label for="lib">Liberal</label>
+                        <input type="radio" id="lib">
+                        <label for="other">In Between/Other</label>
                         <input type="radio" id="other">
                     </fieldset>
                 <br>
@@ -169,7 +175,7 @@
                         </optgroup>
                     </select>
                 <br>
-                    <label for="drawings">Which of my drawings is your favorite:</label>
+                    <label for="drawings">Which of my drawings was your favorite:</label>
                     <input list="drawingsList" id="drawings" name="drawingsChoice" />
 
                     <datalist id="drawingsList">
