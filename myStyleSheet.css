@@ -1,8 +1,11 @@
 @font-face { font-family: Squada; src: url('SquadaOne-Regular.otf'); }
 * {
     font-family: Squada; /*makes all text Squada font*/
+    color: rgba(255,255,255,1);
 }
-
+body {
+    background-color:#131313;
+}
 
 
 
