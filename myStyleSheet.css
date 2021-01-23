@@ -1,2 +1,9 @@
-/* This file was only created to link to it, because we were not allowed to use CSS for this assignment (Not that I even know
-CSS yet).*/
+@font-face { font-family: Squada; src: url('SquadaOne-Regular.otf'); }
+* {
+    font-family: Squada; /*makes all text Squada font*/
+}
+
+
+
+
+
