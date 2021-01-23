@@ -7,8 +7,18 @@ body {
     background-color:#131313;
 }
 
+div > form {
+    background-color: rgb(37, 37, 37);
+}
 
+ol li {
+    color: rgb(33, 167, 127);
+}
 
+h3 + p {
+    text-indent: 5%;
+}
 
-
-
+h2 ~ h3 {
+    text-decoration: underline;
+}
